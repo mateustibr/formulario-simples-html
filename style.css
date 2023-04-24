@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #CBF67E;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.card {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+    justify-content: center;
+    align-content: center;
+}
+
+.card form {
+    display: block;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card form h1 {
+    color: #56A215;
+    margin-left: 5px;
+}
+
+.card form .row{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:10px;
+}
+
+.card form .row .form-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.card form .row .form-item span {
+    font-size: 10px;
+    color: #2D6C08;
+}
+
+.card form .row .form-item input {
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+.card form .row .form-item select {
+    height: 32px;
+    padding: 6px;
+    border-radius: 2px;
+    border: 1px solid gray;
+}
+
+.card form .row .form-item input:active {
+    border: 1px solid #2D6C08;
+} 
+
+.card form button {
+    padding: 10px;
+    background-color: lightgray;
+    color: #202020;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+.card form button:hover {
+    background-color: #F2FDD4;
+    border: 1px solid #2D6C08;
+    color: #2D6C08;
+}
